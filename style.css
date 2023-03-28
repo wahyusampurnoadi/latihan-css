@@ -1,0 +1,47 @@
+#tabel-siswa {
+  border-collapse: collapse;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  margin: auto;
+}
+
+.link {
+  color: yellow;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to left, #3235ff, #16ff9a);
+}
+
+#tabel-siswa h3 {
+  font-size: 32px;
+}
+
+#tabel-siswa td {
+  padding: 20px;
+}
+
+div {
+  width: 300px;
+  height: 400px;
+  background-color: #404040;
+  border-radius: 10px;
+  display: flex;
+  margin: 100px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 2px 2px 10px #000000;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  color: orange;
+}
